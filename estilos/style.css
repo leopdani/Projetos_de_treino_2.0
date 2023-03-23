@@ -75,7 +75,7 @@ header{
     padding: 1.1em;
     padding-top: 1.3em;
     width: 100vw;
-    height: 89vh;
+    height: 94vh;
 }
 
 header > p{
@@ -86,3 +86,27 @@ header > p{
     padding: 5px;
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+   
+    
+    }
