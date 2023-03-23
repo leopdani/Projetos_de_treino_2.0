@@ -73,8 +73,9 @@ header{
     font-size: 1.7em;
     text-align: center;
     padding: 1.1em;
+    padding-top: 1.3em;
     width: 100vw;
-    height: 87vh;
+    height: 89vh;
 }
 
 header > p{
