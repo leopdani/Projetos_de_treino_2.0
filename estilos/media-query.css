@@ -17,4 +17,10 @@ grandes acima de 1200px
     nav > a{
         display: inline-block;
     }
+
+    header{
+        padding: 3.0em;
+        width: 100vw;
+        height: 100vh;
+    }
 }
