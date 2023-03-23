@@ -70,11 +70,11 @@ header{
     background-color: var(--cor3);
     color: white;
     font-family: 'Russo One', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-align: center;
-    padding: 3.0em;
+    padding: 2.1em;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 header > p{
