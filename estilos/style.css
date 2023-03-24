@@ -71,7 +71,7 @@ header{
     background-color: var(--cor3);
     color: white;
     font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     padding: 1.1em;
     padding-top: 1.3em;
@@ -91,7 +91,6 @@ header > p{
 
 
 a:link{
-    text-decoration: none;
     color: white;
 }
 a:hover{
