@@ -24,5 +24,17 @@ grandes acima de 1200px
         height: 100vh;
     }
 
+
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #5C3E09;
+    }
+    a:visited {
+        color: white;
+    }
     
 }
