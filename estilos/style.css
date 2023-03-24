@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /*versão mobile first*/
 :root{
     --cor0:#9C6810;    
@@ -67,14 +71,19 @@ nav > a:hover{
     color: var(--cor1);
 }
 
+.letra{
+    font-family: 'Press Start 2P', cursive;
+  
+}
+
 header{
     background-color: var(--cor3);
     color: white;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Russo One', sans-serif; 
+    font-size: 1.7em;
     text-align: center;
-    padding: 1.1em;
-    padding-top: 3.2em;
+    padding: 1.2em; 
+    padding-top: 1.6em; 
     width: 100vw;
     height: 93vh;
 }
@@ -94,6 +103,9 @@ header > h2{
     background-color: var(--cor1);
     border-radius: 20px;
     font-size: 0.4em;
+    
+   
+
 }
 
 section#perfil{
@@ -103,18 +115,14 @@ section#perfil{
     font-weight: bold;
     text-align: center;
     
-    
 }
-
 section#perfil > h1{
-    font-size: 2.5em;
-    padding-top: 0.8em;
-    
-}
+    font-size: 2.8em;
+    padding-top: 0.8em;   
+} 
 
 section#perfil > img{
-    padding-bottom: 0.8em;
-    
+    padding-bottom: 0.8em; 
 }
 
 section#curriculo{
@@ -126,9 +134,9 @@ section#curriculo{
 }
 
 section#curriculo > h1{
-    font-size: 2.5em;
+    font-size: 2.3em;
     padding-top: 0.8em;
-}
+} 
 
 
 
