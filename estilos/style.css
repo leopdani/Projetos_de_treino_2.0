@@ -2,8 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
-
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /*versão mobile first*/
 :root{
@@ -82,21 +83,22 @@ header{
     background-color: var(--cor3);
     color: white;
     font-family: 'Russo One', sans-serif; 
-    font-size: 1.7em;
+    font-size: 2.0em;
     text-align: center;
-    padding: 1.2em; 
+    padding: 0.2em; 
     padding-top: 1.6em; 
     width: 100vw;
     height: 93vh;
 }
 
 header > p{
-    margin-top: 5.8em;  /*0.6em;*/
+    margin-top: 5.2em;  /*0.6em;*/
     font-size: 0.4em; /*0.4em;*/
     background-color: var(--cor1);
     color: white;
     padding: 5px;
     border-radius: 20px;
+    
     
 }
 
@@ -112,7 +114,7 @@ header > h2{
 }
 
 section#perfil{
-    background-color: var(--cor1);
+    background-color: var(--cor0);
     color: white;
     font-size: 0.4em;
     font-weight: bold;
@@ -161,6 +163,7 @@ section.img > img:hover{
 
 section#redes-sociais{
     text-align: center;
+    background-color: white;
    
 }
 section#redes-sociais img{

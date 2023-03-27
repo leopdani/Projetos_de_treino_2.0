@@ -20,14 +20,23 @@ grandes acima de 1200px
 
     header{
         padding: 3.0em;
-        padding-top: 2.5em;
-        font-size: 1.6em;
+        padding-top: 2.3em;
+        font-size: 1.9em;
         width: 100vw;
         height: 100vh;
     }
 
+    header > p{
+        margin-top: 2.8em;  /*0.6em;*/
+        font-size: 0.4em; /*0.4em;*/
+        background-color: var(--cor1);
+        color: white;
+        padding: 5px;
+        border-radius: 20px;
+    }
+
     header > h2{
-        margin-top: 2.2em;
+        margin-top: 1.0em;
         background-color: var(--cor1);
         border-radius: 20px;
            
@@ -35,7 +44,7 @@ grandes acima de 1200px
 
     section.img > img{
         background-color: white;
-        width: 90px;
+        width: 120px;
         padding: 8px;
         margin:20px;
         border-radius: 20%;
