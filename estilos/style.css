@@ -106,6 +106,7 @@ header > h2{
     border-radius: 20px;
     font-size: 0.4em;
     
+    
    
 
 }
@@ -140,8 +141,22 @@ section#curriculo > h1{
     padding-top: 0.8em;
 } 
 
+section.img > img{
+    background-color: white;
+    width: 90px;
+    padding: 8px;
+    margin:20px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
 
-
+section.img > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .5s, border 1s;
+}
 
 
 section#redes-sociais{
@@ -183,3 +198,6 @@ footer{
     height: 4em;
     
     }
+
+
+    
