@@ -33,7 +33,16 @@ grandes acima de 1200px
            
     }
 
-    
+    section.img > img{
+        background-color: white;
+        width: 90px;
+        padding: 8px;
+        margin:20px;
+        border-radius: 20%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+        box-sizing: border-box;
+    }
+
 
     a:link{
         color: white;
