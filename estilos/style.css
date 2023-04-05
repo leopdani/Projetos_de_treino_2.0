@@ -207,10 +207,11 @@ footer{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 250px;
-        height: 225px;
-        background-color: gray;
-        border: 1px solid #000;
+        width: 275px;
+        height: 250px;
+        padding: 10px;
+        background-color: var(--cor0);
+        border: 1px solid #00000059;
         color: white;
         z-index: 9999;
         border-radius: 15px 15px 15px 15px;
@@ -219,15 +220,17 @@ footer{
       .popup h1 {
         font-size: 24px;
         margin-bottom: 10px;
-        background-color: rgb(75, 75, 75);
-        border-radius: 12px 12px 0px 0px;
+        padding: 5px;
+        background-color: var(--cor1);
+        border-radius: 14px 14px 14px 14px;
         
       }
       
       .popup p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
-        background-color: rgb(79, 79, 79);
-        
+        padding: 5px;
+        background-color: var(--cor2);
+        border-radius: 14px 14px 14px 14px;
       }
       
